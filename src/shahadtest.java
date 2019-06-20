@@ -5,7 +5,7 @@ public class shahadtest {
         Scanner input=new Scanner(System.in);
         int[] a=new int[5];
         System.out.print("Enter the orders of number777");
-        for(int y=0;y<a.length;y++){
+        for(int y=1;y<a.length;y++){
             a[y]=input.nextInt();}
         for (int j=2;j<a.length;j++){
             int key=a[j];
