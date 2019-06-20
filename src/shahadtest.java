@@ -16,7 +16,7 @@ public class shahadtest {
             }
             a[i+1]=key;}
         System.out.print("sorted is:");
-        for(int x=0;x<a.length;x++){
+        for(int x=2;x<a.length;x++){
             System.out.print(a[x]+" ");
             System.out.println();
         }}
